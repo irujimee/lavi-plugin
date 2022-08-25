@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pnpm -C vite-plugin-laravel run build",
+    "docs:dev": "pnpm -C docs run dev",
+    "docs:build": "pnpm -C docs run build",
+    "docs:serve": "pnpm -C docs run serve",
+    "release": "bumpp vite-plugin-laravel/package.json --push --tag --commit \"release: v\"",
+    "test": "npm run test:php && npm run test:vite",
+    "test:php": ".\\vendor\\bin\\pest",
+    "test:vite": "vitest --run"
+  },
+  "devDependencies": {
+    "@irujimee/eslint-config": "^0.12.0",
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    },
+    "overrides": {
+      "execa": "5.1.1",
+      "chalk": "4.1.2"
+    }
+  }
+}
