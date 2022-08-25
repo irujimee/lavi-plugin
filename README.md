@@ -1,27 +1,28 @@
-![Banner](/irujimee/lavi-plugin/images/banner.png)
-<center>
+<p align="center">
+
+![Banner](/images/banner.png)
+
+</p>
+<p align="center" dir="auto">
 <a href="https://github.com/irujimee/lavi-plugin/actions?query=workflow%3Atests">
-    <img src="/irujimee/lavi-plugin/images/test.svg" alt="Test" />
+    <img src="/images/test.svg" alt="Test" />
 </a>
 <span>&nbsp;</span>
 <a href="https://github.com/irujimee/lavi-plugin/releases">
-    <img src="/irujimee/lavi-plugin/images/version.svg" alt="Version" />
+    <img src="/images/version.svg" alt="Version" />
 </a>
 <span>&nbsp;</span>
 <a href="https://github.com/irujimee/lavi-plugin/wiki">
-    <img src="/irujimee/lavi-plugin/images/document.svg"  alt="Documentation" />
+    <img src="/images/document.svg"  alt="Documentation" />
 </a>
+</p>
 <br />
-<br />
-
-```sh
-composer require "irujimee/lavi-plugin:0.2.*"
-```
-
+<pre><div align="center" dir="auto">composer require "irujimee/lavi-plugin:0.2.*"</div></pre>
+<div align="center" dir="auto">
 <p>This project aims to integrate Vite with the Laravel framework as seamlessly as possible.</p>
 <p>It consists of a preset, a Laravel package and a Vite plugin.</p>
+</div>
 <br />
-<br />
+<p align="center" dir="auto">
 <a href="https://github.com/irujimee/lavi-plugin/wiki">See the documentation</a>
-
-</center>
+</p>
